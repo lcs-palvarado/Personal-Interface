@@ -17,7 +17,11 @@ struct PodcastShow: View {
     var body: some View {
         HStack{
             Image(pictureAsset)
-                .cornerRadius(2.0)
+                .resizable()
+                .scaledToFit()
+                .cornerRadius(10)
+                .frame(width: 100)
+            
             VStack{
                 Text(podcastTitle)
                     .foregroundStyle(.white)
@@ -28,7 +32,7 @@ struct PodcastShow: View {
             }
             Spacer()
             Circle()
-                .size(.init(width: 20, height: 20))
+                .frame(width: 20)
                 .foregroundStyle(.blue)
         }
     }
@@ -36,5 +40,6 @@ struct PodcastShow: View {
 
 #Preview {
 
-    PodcastShow(pictureAsset: "searchBar", podcastTitle: "1234", podcastAuthor: "123")
+    PodcastShow(pictureAsset: "TheRadicalAiPodcast", podcastTitle: "The Radical AI Podcast", podcastAuthor: "")
+        
 }

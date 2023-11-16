@@ -10,9 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            ZStack{
             Rectangle()
                 .frame(height: 200)
-                ZStack{
                     VStack{
                         HStack{
                             Image(systemName: "gearshape")
