@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471D933A2B059BC600DE7DF9 /* PodcastShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471D93392B059BC600DE7DF9 /* PodcastShow.swift */; };
 		47668FDF2B052FEA001F56AB /* Personal_InterfaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47668FDE2B052FEA001F56AB /* Personal_InterfaceApp.swift */; };
 		47668FE12B052FEA001F56AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47668FE02B052FEA001F56AB /* ContentView.swift */; };
 		47668FE32B052FEC001F56AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47668FE22B052FEC001F56AB /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		471D93392B059BC600DE7DF9 /* PodcastShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastShow.swift; sourceTree = "<group>"; };
 		47668FDB2B052FEA001F56AB /* Personal Interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Interface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47668FDE2B052FEA001F56AB /* Personal_InterfaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_InterfaceApp.swift; sourceTree = "<group>"; };
 		47668FE02B052FEA001F56AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				47668FE02B052FEA001F56AB /* ContentView.swift */,
 				47668FE22B052FEC001F56AB /* Assets.xcassets */,
 				47668FE42B052FEC001F56AB /* Preview Content */,
+				471D93392B059BC600DE7DF9 /* PodcastShow.swift */,
 			);
 			path = "Personal Interface";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471D933A2B059BC600DE7DF9 /* PodcastShow.swift in Sources */,
 				47668FE12B052FEA001F56AB /* ContentView.swift in Sources */,
 				47668FDF2B052FEA001F56AB /* Personal_InterfaceApp.swift in Sources */,
 			);
