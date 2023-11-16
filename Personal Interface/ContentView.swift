@@ -50,6 +50,16 @@ struct ContentView: View {
             }
             .listStyle(.plain)
             
+            .tabItem { 
+                HStack{
+                    Image(systemName: "chevron.up")
+                    Image(systemName: "gobackward.15")
+                    Image(systemName: "play.fill")
+                    Image(systemName: "goforward.30")
+                    Image(systemName: "MacPower")
+                        .cornerRadius(10)
+                }
+            }
             
         }
     }
