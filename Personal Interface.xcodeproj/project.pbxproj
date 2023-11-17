@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		471D933A2B059BC600DE7DF9 /* PodcastShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471D93392B059BC600DE7DF9 /* PodcastShow.swift */; };
+		473E53C02B07D10400D1C866 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E53BF2B07D10400D1C866 /* SwiftUIView.swift */; };
+		473E53C22B07D15900D1C866 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E53C12B07D15900D1C866 /* TabBar.swift */; };
+		473E53C42B07D69000D1C866 /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E53C32B07D69000D1C866 /* ChevronView.swift */; };
+		473E53C62B07D7A500D1C866 /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E53C52B07D7A500D1C866 /* BackView.swift */; };
+		473E53C82B07D80900D1C866 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E53C72B07D80900D1C866 /* PlayView.swift */; };
+		473E53CA2B07D82200D1C866 /* ForwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E53C92B07D82200D1C866 /* ForwardView.swift */; };
+		473E53CC2B07D86F00D1C866 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E53CB2B07D86F00D1C866 /* PowerView.swift */; };
 		47668FDF2B052FEA001F56AB /* Personal_InterfaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47668FDE2B052FEA001F56AB /* Personal_InterfaceApp.swift */; };
 		47668FE12B052FEA001F56AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47668FE02B052FEA001F56AB /* ContentView.swift */; };
 		47668FE32B052FEC001F56AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47668FE22B052FEC001F56AB /* Assets.xcassets */; };
@@ -16,6 +23,13 @@
 
 /* Begin PBXFileReference section */
 		471D93392B059BC600DE7DF9 /* PodcastShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastShow.swift; sourceTree = "<group>"; };
+		473E53BF2B07D10400D1C866 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		473E53C12B07D15900D1C866 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		473E53C32B07D69000D1C866 /* ChevronView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChevronView.swift; sourceTree = "<group>"; };
+		473E53C52B07D7A500D1C866 /* BackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
+		473E53C72B07D80900D1C866 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		473E53C92B07D82200D1C866 /* ForwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardView.swift; sourceTree = "<group>"; };
+		473E53CB2B07D86F00D1C866 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
 		47668FDB2B052FEA001F56AB /* Personal Interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Interface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47668FDE2B052FEA001F56AB /* Personal_InterfaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_InterfaceApp.swift; sourceTree = "<group>"; };
 		47668FE02B052FEA001F56AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +72,8 @@
 				47668FE22B052FEC001F56AB /* Assets.xcassets */,
 				47668FE42B052FEC001F56AB /* Preview Content */,
 				471D93392B059BC600DE7DF9 /* PodcastShow.swift */,
+				473E53BF2B07D10400D1C866 /* SwiftUIView.swift */,
+				473E53C12B07D15900D1C866 /* TabBar.swift */,
 			);
 			path = "Personal Interface";
 			sourceTree = "<group>";
@@ -66,6 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				47668FE52B052FEC001F56AB /* Preview Assets.xcassets */,
+				473E53C32B07D69000D1C866 /* ChevronView.swift */,
+				473E53C52B07D7A500D1C866 /* BackView.swift */,
+				473E53C72B07D80900D1C866 /* PlayView.swift */,
+				473E53C92B07D82200D1C866 /* ForwardView.swift */,
+				473E53CB2B07D86F00D1C866 /* PowerView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -142,7 +163,14 @@
 			files = (
 				471D933A2B059BC600DE7DF9 /* PodcastShow.swift in Sources */,
 				47668FE12B052FEA001F56AB /* ContentView.swift in Sources */,
+				473E53C82B07D80900D1C866 /* PlayView.swift in Sources */,
+				473E53C02B07D10400D1C866 /* SwiftUIView.swift in Sources */,
+				473E53CC2B07D86F00D1C866 /* PowerView.swift in Sources */,
 				47668FDF2B052FEA001F56AB /* Personal_InterfaceApp.swift in Sources */,
+				473E53C42B07D69000D1C866 /* ChevronView.swift in Sources */,
+				473E53C22B07D15900D1C866 /* TabBar.swift in Sources */,
+				473E53CA2B07D82200D1C866 /* ForwardView.swift in Sources */,
+				473E53C62B07D7A500D1C866 /* BackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
