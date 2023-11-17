@@ -20,15 +20,23 @@ struct PodcastShow: View {
                 .resizable()
                 .scaledToFit()
                 .cornerRadius(10)
-                .frame(width: 100)
+                .frame(width: 80, height: 80)
             
             VStack{
-                Text(podcastTitle)
-                    .foregroundStyle(.white)
-                    .font(.system(size: 20))
-                Text(podcastAuthor)
-                    .foregroundStyle(.gray)
-                    .font(.system(size: 17))
+                HStack {
+                    Text(podcastTitle)
+                        .foregroundStyle(.white)
+                        .font(.system(size: 18))
+                    .multilineTextAlignment(.leading)
+                    Spacer()
+                }
+                HStack {
+                    Text(podcastAuthor)
+                        .foregroundStyle(.gray)
+                        .font(.system(size: 12))
+                    .multilineTextAlignment(.leading)
+                    Spacer()
+                }
             }
             Spacer()
             Circle()

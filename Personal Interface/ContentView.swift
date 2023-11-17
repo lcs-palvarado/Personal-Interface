@@ -12,20 +12,27 @@ struct ContentView: View {
         VStack {
             ZStack{
             Rectangle()
-                .frame(height: 200)
+                .frame(height: 100)
                     VStack{
                         HStack{
                             Image(systemName: "gearshape")
                                 .foregroundColor(.blue)
+                                .padding(.horizontal)
+                            Spacer()
                             Image(systemName: "arrow.down.circle")
                                 .foregroundColor(.blue)
                             Spacer()
                             Image(systemName: "text.badge.plus")
                                 .foregroundColor(.blue)
+                            Spacer()
                             Image(systemName: "plus")
                                 .foregroundColor(.blue)
+                                .padding(.horizontal)
                         }
                         Image("SearchBar")
+                            .resizable()
+                            .scaledToFit()
+                            .padding(.horizontal)
                                     }
             }
             List{
